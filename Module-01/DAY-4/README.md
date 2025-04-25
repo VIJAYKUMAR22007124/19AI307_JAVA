@@ -24,20 +24,33 @@ b)	Call the 'calculateArea' method on the 'rectangle' object
  ```
 /*
 Program to implement a User Defined Method using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VIJAY KUMAR B
+RegisterNumber: 212222230173
 */
 ```
 
 ## Sourcecode.java:
 
-
+```
+import java.util.*;
+public class Area {
+       void calculateArea(){
+       float a =10,b=20;
+       System.out.print("Area of Rectangle is "+a*b);
+       }
+       public static void main(String[] args) {
+       Area obj=new Area();
+       obj.calculateArea();
+       }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/215e2293-9335-4772-88af-7b960f0f1998)
 
 
 
