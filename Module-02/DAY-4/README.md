@@ -1,4 +1,4 @@
-# Ex.No:2(D) MULTI-DIMENSIONAL ARRAY
+![image](https://github.com/user-attachments/assets/6d89c13f-2ae8-418e-a955-c9818599a26f)# Ex.No:2(D) MULTI-DIMENSIONAL ARRAY
 
 ## AIM:
 To create a java program that returns the sum of all the values in a 2D array.
@@ -22,20 +22,44 @@ To create a java program that returns the sum of all the values in a 2D array.
  ```
 /*
 Program to implement a Multi Dimensional Array using Java
-Developed by: 
-RegisterNumber:  
+Developed by: VIJAY KUMAR B
+RegisterNumber:  212222230173
 */
 ```
 
 ## Sourcecode.java:
 
+```
+import java.util.*;
 
+public class SumOf2DArray {
+    public static void main(String[] args) {
+        Scanner v = new Scanner(System.in);
+        int rows = v.nextInt();
+        int cols = v.nextInt();
+
+        int[][] array = new int[rows][cols];
+        int sum = 0;
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                array[i][j] = v.nextInt();
+                sum += array[i][j];
+            }
+        }
+
+        System.out.println("The sum of all values in the 2D array is: " + sum);
+        v.close();
+    }
+}
+```
 
 
 
 
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/b4ca4979-3054-4df9-bac2-956f56bf69c0)
 
 
 
