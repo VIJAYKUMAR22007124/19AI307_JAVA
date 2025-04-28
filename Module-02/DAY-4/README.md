@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/6d89c13f-2ae8-418e-a955-c9818599a26f)# Ex.No:2(D) MULTI-DIMENSIONAL ARRAY
+# Ex.No:2(D) MULTI-DIMENSIONAL ARRAY
 
 ## AIM:
 To create a java program that returns the sum of all the values in a 2D array.
